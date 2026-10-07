@@ -8,9 +8,8 @@ public class Main {
             number = number - 2;
         }
         double[] x = new double[13];
-        Random rnd = new Random();
         for (int j = 0; j < 13; j++) {
-            x[j] = -15.0 + (9.0 - (-15.0)) * rnd.nextDouble();
+            x[j] = -15.0 + (9.0 - (-15.0)) * Math.random();
         }
         double[][] e1 = new double[10][13];
         for (int i = 0; i < 10; i++) {
